@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    padding: 1% 10%;
+    background-image: url("img/snake.jpg");
+    background-size: 100%;
+}
+
+.titulo {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+footer {
+    color: rgb(65, 4, 4);
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode';
+    display: flex;
+    justify-content: center;
+}
+
